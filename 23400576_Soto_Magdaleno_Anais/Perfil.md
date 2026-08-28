@@ -11,7 +11,7 @@
 - **Grupo:** 5B
 
 ## Intereses
-- Mis inetereses son ver peliculas, ir a natación, hacer manualidades y hacerme las uñas :) 
+- Mis intereses son ver peliculas, ir a natación, hacer manualidades y hacerme las uñas :) 
 
 ## Tecnologías que conozco
 - SQL Server
