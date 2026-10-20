@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>THE BEATLES</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+
+        body {
+            margin: 0;
+            background: #A9D6D9;
+            color: #2A2A2E;
+            font-family: "Work Sans", system-ui, sans-serif;
+            font-size: 1.05rem;
+            line-height: 1.65;
+        }
+
+        header {
+            background: #2A2A2E;
+            color: #F7F5EF;
+            text-align: center;
+            padding: 64px 20px 40px;
+        }
+
+        h1 {
+            margin: 0;
+            font-family: "DM Serif Display", Georgia, serif;
+            font-weight: 400;
+            font-size: clamp(2.8rem, 11vw, 6.5rem);
+            line-height: 1;
+            letter-spacing: 0.02em;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 36px auto;
+            padding: 36px 32px 44px;
+            background: #F7F5EF;
+            border-radius: 12px;
+            box-shadow: 0 8px 28px rgba(42, 42, 46, 0.22);
+        }
+
+        p { max-width: 64ch; }
+
+        h2 {
+            margin: 48px 0 16px;
+            padding: 8px 16px;
+            background: #D9E8C4;
+            border-radius: 8px;
+            font-family: "DM Serif Display", Georgia, serif;
+            font-weight: 400;
+            font-size: 1.8rem;
+            line-height: 1.2;
+        }
+
+        a {
+            color: rgb(33, 76, 41);
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        nav ol {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 0;
+            padding-left: 22px;
+        }
+        nav li { padding-left: 4px; }
+
+        figura { margin: 0; }
+        figura img {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 360px;
+            border-radius: 12px;
+        }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;   
+}
+
+th {
+    background: #2A2A2E;         
+    color: white;                
+    padding: 10px;               
+    text-align: left;            
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc;     
+}
+
+.enlaces { list-style: none; padding: 0; margin: 0; }
+.enlaces li { margin-bottom: 8px; }
+        footer {
+            text-align: center;
+            padding: 0 20px 36px;
+            font-size: 0.9rem;
+        }
+
+            main { margin: 20px 12px; padding: 26px 18px 34px; }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Beatles</h1>
+    </header>
+
+    <main>
+        <p>Los Beatles fueron una banda de rock británica formada en Liverpool en 1960.</p>
+        <p>Son ampliamente considerados como la banda más influyente de la música popular y fueron fundamentales para el desarrollo de la contracultura de los años 60 y el reconocimiento de la música popular como una forma de arte.</p>
+
+        <h2>Índice</h2>
+        <nav>
+            <ol>
+                <li><a href="#imagen">Fotografía de la banda</a></li>
+                <li><a href="#integrantes">Integrantes</a></li>
+                <li><a href="#discografia">Discografía</a></li>
+                <li><a href="#enlaces">Enlaces</a></li>
+            </ol>
+        </nav>
+
+        <h2 id="imagen">Fotografía de la banda</h2>
+        <figura>
+            <img alt="Portada del álbum Abbey Road de The Beatles" src="https://upload.wikimedia.org/wikipedia/commons/a/a4/The_Beatles_Abbey_Road_album_cover.jpg?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original">
+        </figura>
+
+        <h2 id="integrantes">Integrantes</h2>
+        <div class="tabla">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Instrumento</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John Lennon</td>
+                        <td>Guitarra rítmica, voz, armónica y teclados</td>
+                    </tr>
+                    <tr>
+                        <td>Paul McCartney</td>
+                        <td>Bajo, voz, piano y guitarra</td>
+                    </tr>
+                    <tr>
+                        <td>George Harrison</td>
+                        <td>Guitarra principal, voz y sitar</td>
+                    </tr>
+                    <tr>
+                        <td>Ringo Starr</td>
+                        <td>Batería y voz</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2 id="discografia">Discografía</h2>
+        <div class="tabla">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Título</th>
+                        <th class="anio">Año</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Please Please Me</td><td class="anio">1963</td></tr>
+                    <tr><td>With The Beatles</td><td class="anio">1963</td></tr>
+                    <tr><td>A Hard Day's Night</td><td class="anio">1964</td></tr>
+                    <tr><td>Beatles For Sale</td><td class="anio">1964</td></tr>
+                    <tr><td>Help!</td><td class="anio">1965</td></tr>
+                    <tr><td>Rubber Soul</td><td class="anio">1965</td></tr>
+                    <tr><td>Revolver</td><td class="anio">1966</td></tr>
+                    <tr><td>Sgt. Pepper's Lonely Hearts Club Band</td><td class="anio">1967</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2 id="enlaces">Enlaces</h2>
+        <ul class="enlaces">
+            <li><a href="https://www.thebeatles.com/" target="_blank" rel="noopener" title="Ir a la página oficial">Página oficial</a></li>
+            <li><a href="https://www.youtube.com/results?search_query=the+beatles" target="_blank" rel="noopener" title="Ir a YouTube">YouTube</a></li>
+            <li><a href="https://www.instagram.com/thebeatles/reels/?hl=es" target="_blank" rel="noopener" title="Ir a Instagram">Instagram</a></li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
